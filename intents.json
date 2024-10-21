@@ -1,0 +1,367 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "How are you?",
+                "Is anyone there?",
+                "Good day",
+                "Hey",
+                "Greetings",
+                "what's up?",
+                "konnichiwa"
+            ],
+            "responses": [
+                "How can I assist you today?",
+                "How can I help you?",
+                "What can I do for you?",
+                "What's up?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Have a nice day",
+                "Talk to you later",
+                "Farewell"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! If you need anything, just ask.",
+                "Farewell! Take care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "That helps a lot",
+                "Thanks a lot",
+                "Thanks for your help"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help!",
+                "No problem, happy to assist!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "I don't understand",
+                "Can you repeat that?",
+                "I didn't get that",
+                "What do you mean?",
+                "Please clarify"
+            ],
+            "responses": [
+                "I'm sorry, I didn't quite catch that. Can you rephrase?",
+                "Could you please ask that in a different way?",
+                "I'm here to help, but I didn't understand your question."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "Can you help me?",
+                "I need assistance",
+                "What can you do?",
+                "Can you assist me?"
+            ],
+            "responses": [
+                "Of course! What do you need help with?",
+                "I'm here to assist you! Please let me know your question.",
+                "Sure! How can I help you today?"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the weather",
+                "Is it going to rain today?",
+                "How's the weather outside?"
+            ],
+            "responses": [
+                "Let me check the weather for you...",
+                "Fetching the latest weather update..."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it?",
+                "Tell me the time",
+                "Current time please",
+                "What is the time now?"
+            ],
+            "responses": [
+                "Let me check the current time for you...",
+                "Here's the time for you..."
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "What date is it?",
+                "Tell me today's date",
+                "Today's date please",
+                "What is the today's date?"
+            ],
+            "responses": [
+                "Let me check today's date for you...",
+                "Here's today's date for you..."
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where are you located?",
+                "Where can I find you?",
+                "What's your location?",
+                "Where is your office?",
+                "Can you tell me your address?"
+            ],
+            "responses": [
+                "I'm a virtual assistant, so I don't have a physical location.",
+                "I exist online! You can reach me from anywhere.",
+                "I don't have a physical address; I'm here to help you online."
+            ]
+        },
+        {
+            "tag": "service",
+            "patterns": [
+                "What services do you offer?",
+                "Tell me about your services",
+                "What can you do?",
+                "What are your capabilities?",
+                "How can you help me?"
+            ],
+            "responses": [
+                "I can assist you with a variety of tasks, including answering questions, providing information, and more!",
+                "My main services include information retrieval, conversation, and task management.",
+                "I am here to help you find answers to your questions and provide assistance."
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "I want to hear a joke",
+                "Make me laugh",
+                "Do you have any jokes?",
+                "Give me a funny line"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "I told my computer I needed a break, and now it won't stop sending me beach wallpapers!",
+                "What do you call fake spaghetti? An impasta!"
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "How can I give feedback?",
+                "I want to provide feedback",
+                "Can I leave a review?",
+                "How do I share my experience?"
+            ],
+            "responses": [
+                "We'd love to hear your feedback! You can share it here.",
+                "Please feel free to share your thoughts with us!",
+                "Your feedback is important! Let me know what you think."
+            ]
+        },
+        {
+            "tag": "support",
+            "patterns": [
+                "I need support",
+                "Help me with an issue",
+                "I'm having trouble",
+                "Can you provide support?",
+                "I need technical assistance"
+            ],
+            "responses": [
+                "I'm here to help! Please describe the issue you're facing.",
+                "Let me know what's wrong, and I'll do my best to assist you.",
+                "What problem are you experiencing? I'm here to help!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Tell me about yourself",
+                "What are you?",
+                "Who created you?",
+                "Can you tell me about your purpose?",
+                "What is your function?"
+            ],
+            "responses": [
+                "I'm a chatbot designed to assist you with your inquiries and tasks!",
+                "I was created to provide information and support users like you.",
+                "My purpose is to help you find answers and make your experience better!"
+            ]
+        },
+        {
+            "tag": "add",
+            "patterns": [
+                "add 2 and 3",
+                "what is 5 plus 7?",
+                "sum of 4 and 6",
+                "calculate 8 plus 3",
+                "please add 10 and 20",
+                "1 plus 1",
+                "add 15 to 25",
+                "what is 3 plus 9?",
+                "what is 1 + 1",
+                "calculate 2+2"
+
+            ],
+            "responses": ["The result of the addition is {result}."]
+        },
+        {
+            "tag": "subtract",
+            "patterns": [
+                "subtract 4 from 5",
+                "what is 10 minus 2?",
+                "difference between 9 and 5",
+                "calculate 15 minus 7",
+                "please subtract 1 from 10",
+                "8 minus 3",
+                "take 5 away from 20",
+                "what is 12 minus 4?",
+                "calculate 2 - 1",
+                "what is 2-1"
+            ],
+            "responses": ["The result of the subtraction is {result}."]
+        },
+        {
+            "tag": "multiply",
+            "patterns": [
+                "multiply 3 with 6",
+                "what is 7 times 8?",
+                "product of 4 and 5",
+                "calculate 9 times 2",
+                "please multiply 12 by 3",
+                "6 times 4",
+                "what is 2 multiplied by 7?",
+                "what is 2 * 3",
+                "calculate 2*3"
+            ],
+            "responses": ["The result of the multiplication is {result}."]
+        },
+        {
+            "tag": "divide",
+            "patterns": [
+                "divide 8 by 2",
+                "what is 20 divided by 4?",
+                "quotient of 15 and 3",
+                "calculate 12 divided by 6",
+                "please divide 100 by 5",
+                "8 over 2",
+                "what is 30 divided by 5?",
+                "calculate 4 / 2",
+                "what is 4/2"
+            ],
+            "responses": ["The result of the division is {result}."]
+        },
+        {
+            "tag": "knowledge",
+            "patterns": [
+                "Tell me about Albert Einstein",
+                "Who is Nikola Tesla?",
+                "What is photosynthesis?",
+                "Define gravity"
+            ],
+            "responses": [
+                "Fetching information for you...",
+                "Let me find that information..."
+            ]
+        },
+        {
+            "tag": "sentiment",
+            "patterns": [
+                "I feel sad",
+                "I'm happy",
+                "I'm feeling down",
+                "I feel great",
+                "I'm feeling anxious",
+                "I feel overwhelmed",
+                "I'm feeling frustrated",
+                "I'm feeling scared",
+                "I'm feeling stressed",
+                "I'm feeling tired",
+                "I'm feeling uncomfortable",
+                "My relative passsed away",
+                "My relative died",
+                "My parents died",
+                "My family passed away",
+                "My friends passed away",
+                "My siblings passed away",
+                "I'm feeling lonely",
+                "I'm feeling lost"
+            ],
+            "responses": [
+                "I'm here for you. Would you like to talk about it?",
+                "It's okay to feel that way. What’s on your mind?",
+                "That sounds tough. How can I help?"
+            ]
+        },
+        {
+            "tag": "not_in_mood",
+            "patterns": [
+              "I'm not in the mood",
+              "I don't feel like talking",
+              "Can we talk later?",
+              "Not now, please",
+              "I'm feeling down",
+              "Maybe later"
+            ],
+            "responses": [
+              "That's completely understandable. Take your time.",
+              "No worries, I'm here whenever you're ready.",
+              "It's okay to have off days. I'm here for you whenever you want to talk."
+            ]
+          },
+          {
+            "tag": "no",
+            "patterns": [
+              "No",
+              "No thanks",
+              "I don't want to",
+              "Not interested",
+              "Leave me alone"
+            ],
+            "responses": [
+              "Alright, I respect your choice. I'm here if you change your mind.",
+              "That's okay! Let me know if you need anything later.",
+              "I understand. Just know I'm here if you ever want to chat."
+            ]
+          },
+          {
+            "tag": "talk_later",
+            "patterns": [
+              "Let's talk later",
+              "Can we chat another time?",
+              "I need some time",
+              "Talk to you later"
+            ],
+            "responses": [
+              "Of course! I'll be here when you're ready.",
+              "No problem! Reach out whenever you feel like talking.",
+              "Take your time. I'm here for you whenever you need."
+            ]
+          }
+        
+        
+        
+    ]
+}
